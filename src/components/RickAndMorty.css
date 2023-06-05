@@ -11,7 +11,14 @@
     display: grid;
     grid-template-columns: auto auto auto auto auto;
 }
+
+@media (max-width:567px){
+    .cards{
+        grid-template-columns: auto ;
+    }
+}
 .cards-container{
+    
     display: flex;
     justify-content: center;
     align-items: center;
