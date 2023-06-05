@@ -1,0 +1,45 @@
+.card{
+    width: 12rem;
+    margin: 20px;
+}
+.card h5{
+    font-size: 15px;
+    font-weight: bold;
+}
+.cards{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+.cards-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-img-top{
+    height: 150px;
+}
+.card-text{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card-text span{
+    margin: 0px 2px;
+}
+
+.prev-btn, .next-btn{
+    position: absolute;
+    position: fixed;
+    z-index: 1;
+}
+
+.prev-btn{
+    top: 50%;
+    left: 0%;
+}
+
+.next-btn{
+    top: 50%;
+    right: 0%;
+}
