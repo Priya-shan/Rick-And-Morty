@@ -22,8 +22,8 @@ export function RickAndMorty() {
     return (
         <>
         <div>
-        <button className='prev-btn' onClick={()=>setIndex(index-1)}>prev</button>
-        <button className='next-btn' onClick={()=>setIndex(index+1)}>next</button>
+        <button className='prev-btn' onClick={()=>setIndex(index-1)}>◀</button>
+        <button className='next-btn' onClick={()=>setIndex(index+1)}>▶</button>
         </div>
         <div className='cards-container'>
             {data && (
